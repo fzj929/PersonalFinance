@@ -8,6 +8,7 @@
 - 👤 用户注册与登录
 - 💰 收支记录管理
 - 📊 数据统计与分析
+- 📤 CSV 数据导出
 - 🔐 安全认证机制
 - 💾 SQLite 本地数据库
 
@@ -65,7 +66,7 @@ dotnet restore
 dotnet run
 ```
 
-后端服务将在 `http://localhost:5000` 启动，Swagger API 文档在 `http://localhost:5000/swagger`
+后端服务将在 `http://localhost:8082` 启动，Swagger API 文档在 `http://localhost:8082/swagger`
 
 ### 前端启动
 
@@ -79,7 +80,7 @@ npm install
 npm run serve
 ```
 
-前端应用将在 `http://localhost:8080` 启动
+前端应用将在 `http://localhost:8980` 启动
 
 ## 数据库
 
