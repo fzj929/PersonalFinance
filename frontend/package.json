@@ -1,0 +1,23 @@
+{
+  "name": "personal-finance-frontend",
+  "version": "1.0.0",
+  "description": "Personal finance management app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "axios": "^1.4.0",
+    "vuex": "^4.0.2",
+    "vant": "^4.6.0",
+    "dayjs": "^1.11.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0",
+    "@vue/compiler-sfc": "^3.3.0"
+  }
+}

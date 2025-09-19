@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules/
+frontend/.pnpm-store
+frontend/.npm
+frontend/.yarn
+
+# production builds
+frontend/dist/
+frontend/build/
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vscode/
+
+# backend build outputs
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/.vscode/
+
+# database
+backend/app.db
+backend/app.db-shm
+backend/app.db-wal
+
+# logs
+backend/*.log
+
+# user-specific files
+backend/.suo
+backend/.user
+backend/.userosscache
+backend/.sln.docstates
+
+# ReSharper
+backend/_ReSharper.*/
+backend/*.[Rr]e[Ss]harper
+backend/*.DotSettings.user
+
+# Rider
+backend/.idea/
+backend/*.sln.iml
+
+# CodeRush
+backend/.cr/
+
+# Python
+backend/__pycache__/
+backend/*.pyc
+
+# JetBrains
+backend/*.jetbrains
+
+# Windows
+Thumbs.db
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Local configuration files
+appsettings.Development.json
+
+# Exclude the startKey.txt file as requested
+startKey.txt
